@@ -18,3 +18,6 @@ Since the neck part is scaled much larger than the chest, this will make the par
 
 <figure><img src="../../../../.gitbook/assets/normal_maps_UV_scaling_2.png" alt=""><figcaption><p>The solution</p></figcaption></figure>
 
+## Lighting seems inverted, especially for surfaces pointing up or down
+
+Cyberpunk uses DirectX normal map rules, which inverts the Y axis from the default Blender bake settings. Invert your green channel in Photoshop to fix. See [this post on Discord](https://discord.com/channels/717692382849663036/786891742829215745/1331242162024747129) for more detail and a pictoral example.
